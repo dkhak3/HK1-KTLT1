@@ -17,7 +17,7 @@ namespace Ch2_BaiTap1
     {
         static void Main(string[] args)
         {
-            //khai báo biến
+            //khai báo biến.
             const double PI = 3.141; //hằng số Pi
 
             float Bankinh = 0;
