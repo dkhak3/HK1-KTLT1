@@ -15,15 +15,23 @@ namespace Ch5_BaiTap
     {
         static void Main()
         {
-            Console.Write("Nhap vao 1 so nguyen duong: ");
+            Console.Write("Nhap vao so nguyen duong: ");
             int n = int.Parse(Console.ReadLine());
 
-            int sum = 0;
+            while (n <= 0)
+            {
+                Console.WriteLine("Nhap sai, yeu cau nhap lai.");
+                Console.Write("Nhap vao so nguyen duong: ");
+                n = int.Parse(Console.ReadLine());
+            }
+
             //ví dụ: Số hoàn hảo : tổng các ước của nó ( trừ chính nó ra ) = nó
             //6 : 1 + 2 + 3 => 1 + 2 + 3 = 6
             //=> 6 là một con số hoàn hảo
 
             //tính và output
+
+            int sum = 0;
             for (int i = 1; i < n; i++)//i < n chứ ko <= n vì bỏ nó ra
             {
                 if (n % i == 0)

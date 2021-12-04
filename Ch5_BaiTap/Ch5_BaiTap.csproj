@@ -45,15 +45,18 @@
   <ItemGroup>
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap1.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap2.cs" />
-    <Compile Include="NguyenHuuDuyKha_Ch5_BaiTap3.cs" />
+    <None Include="BT3 cô sửa.cs" />
+    <None Include="NguyenHuuDuyKha_Ch5_BaiTap3.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap4.cs" />
+    <None Include="NguyenHuuDuyKha_Ch5_BaiTap15.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap5.cs" />
-    <None Include="NguyenHuuDuyKha_Ch5_BaiTap8.cs" />
+    <Compile Include="NguyenHuuDuyKha_Ch5_BaiTap8.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap10.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap9.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap14.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap6.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap7.cs" />
+    <None Include="NguyenHuuDuyKha_Ch5_BaiTap16.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

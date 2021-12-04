@@ -16,32 +16,37 @@ namespace Ch5_BaiTap
         static void Main()
         {
             //khai báo biến và input
-            Console.Write("Nhap vao 1 so nguyen duong: ");
+            Console.Write("Nhap vao so nguyen duong: ");
             int n = int.Parse(Console.ReadLine());
 
             //tính và output
             while (n <= 0)
             {
-                Console.WriteLine("Nhap sai, yeu cau nhap lai: ");
+                Console.WriteLine("Nhap sai, yeu cau nhap lai.");
+                Console.Write("Nhap vao so nguyen duong: ");
                 n = int.Parse(Console.ReadLine());
             }
 
             //số chính phương là một số tự nhiên có căn bậc hai cũng là một số tự nhiên.
             //số chính phương là ví dụ: 2^2 = 4
+
+            bool kTra = false;
             for (int i = 1; i <= n; i++)
             {
                 if (i * i == n)// hoặc Math.sqrt(i) == n
                 {
-                    Console.WriteLine($"{n} la so chinh phuong");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine($"{n} khong phai la so chinh phong");
-                    break;
+                    kTra = true;              
                 }
             }
 
+            if (kTra == true)
+            {
+                Console.WriteLine($"{n} la so chinh phuong");
+            }
+            else
+            {
+                Console.WriteLine($"{n} khong phai la so chinh phuong");
+            }
         }
     }
 }

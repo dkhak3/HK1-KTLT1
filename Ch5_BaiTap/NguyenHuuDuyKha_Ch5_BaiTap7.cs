@@ -1,8 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*Ch5_BT7: Viết chương trình nhập hai số nguyên dương a,b. Tìm USCLN, BSCNN của a và b theo thuật toán gợi ý sau đây:
+Nếu a >= b thì gán a = a % b , ngược lại gán b = b % a. Lặp cho đến khi a hoặc b bằng 0. USCLN là (a+b).
+BSCNN(a,b) = ( a* b) / USCLN(a,b)
+
+ * Name: Nguyễn Hữu Duy Kha
+ * Date: 03/12/2021
+ */
+
+using System;
 
 namespace Ch5_BaiTap
 {
