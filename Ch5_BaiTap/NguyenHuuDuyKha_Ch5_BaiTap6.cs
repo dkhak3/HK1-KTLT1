@@ -22,6 +22,7 @@ namespace Ch5_BaiTap
             double Fs = 1;
             double Fn = 1;
 
+            //tính và output
             do
             {
                 Console.Write("Nhập vào n: ");

@@ -15,6 +15,7 @@ namespace Ch5_BaiTap
     {
         static void Main()
         {
+            //khai báo biến và input
             Console.Write("Nhap vao so nguyen duong: ");
             int n = int.Parse(Console.ReadLine());
 

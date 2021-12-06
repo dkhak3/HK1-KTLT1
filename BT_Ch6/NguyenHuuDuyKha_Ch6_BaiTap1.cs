@@ -12,20 +12,16 @@ namespace BT_Ch6
         {
             Cout();
         }
-        static void Cout()
+        static void Cout() // hàm dùng để kiểm tra
         {
             int n = 0;
-
-            Console.Write("Nhap vao mot so nguyen duong: ");
-            n = int.Parse(Console.ReadLine());
-
-            while (n <=0 )
+            do
             {
-                Console.Write("Nhap sai, yeu cau nhap lai: ");
+                Console.Write("Nhap vao so nguyen duong: ");
                 n = int.Parse(Console.ReadLine());
-            }
+            } while (n <= 0) ;
 
-            Console.WriteLine($"So ban vua nhap la {n}");
+                Console.WriteLine($"So ban vua nhap la {n}");
         }
     }
 }

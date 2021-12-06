@@ -15,7 +15,7 @@ namespace Ch5_BaiTap
         static void Main()
         {
             Console.OutputEncoding = Encoding.UTF8;
-
+            //khai báo biến và input
             int a = 0;
             int b = 0;
             int USCLN = 0;
@@ -28,6 +28,7 @@ namespace Ch5_BaiTap
             Console.Write("Nhập vào b: ");
             b = int.Parse(Console.ReadLine());
 
+            //tính và output
             if (a >= 0 && b >= 0)
             {
                 if (a == 0 && b == 0)

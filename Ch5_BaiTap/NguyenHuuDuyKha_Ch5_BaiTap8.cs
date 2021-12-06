@@ -11,11 +11,12 @@ namespace Ch5_BaiTap
     {
         static void Main()
         {
-            for (int i = 2; i <= 9; i++)
+            //tính và output
+            for (int i = 1; i <= 10; i++)
             {
-                for (int j = 1; j <= 9; j++)
+                for (int j = 2; j <= 9; j++)
                 {
-                    Console.Write($"{i} x {j} = { i * j}\t ");
+                    Console.Write($"{ j } * { i } = {i * j}\t");
                 }
                 Console.WriteLine();
             }
