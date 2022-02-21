@@ -17,7 +17,6 @@ namespace Ch5_BaiTap
                 int m = i;
                 int tong = 0;
                 int tich = 0;
-                int ss = 0;
 
                 chuso = m / 10; // lấy số đầu tiên của m
 
@@ -31,7 +30,7 @@ namespace Ch5_BaiTap
 
                 if (tich == 2 * tong)
                 {
-                    Console.WriteLine($"Két qua = {i}");
+                    Console.WriteLine($"Ket qua = {i}");
                     break;
                 }
 

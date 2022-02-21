@@ -48,9 +48,10 @@
     <None Include="BT3 cô sửa.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap3.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap4.cs" />
-    <None Include="NguyenHuuDuyKha_Ch5_BaiTap15.cs" />
+    <Compile Include="NguyenHuuDuyKha_Ch5_BaiTap15.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap5.cs" />
-    <Compile Include="NguyenHuuDuyKha_Ch5_BaiTap12.cs" />
+    <None Include="NguyenHuuDuyKha_Ch5_BaiTap11.cs" />
+    <None Include="NguyenHuuDuyKha_Ch5_BaiTap12.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap8.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap10.cs" />
     <None Include="NguyenHuuDuyKha_Ch5_BaiTap9.cs" />

@@ -43,13 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="test.cs" />
+    <Compile Include="3,3.cs" />
+    <None Include="testb2.cs" />
+    <None Include="Thuật toán sắp xếp mảng tăng dần - sắp xếp giảm dần.cs" />
+    <None Include="Class1.cs" />
+    <None Include="test mảng.cs" />
+    <None Include="bt2,2.cs" />
+    <None Include="bt2.cs" />
+    <None Include="test.cs" />
     <None Include="ch3_bt10.cs" />
     <None Include="test chương 1 b1.cs" />
     <None Include="testbt thụ.cs" />
     <None Include="Ch2_BT1.cs" />
     <None Include="Program.cs" />
     <None Include="ch4_bt11.cs" />
+    <None Include="Class2.cs" />
+    <None Include="Class3.cs" />
+    <None Include="Class4.cs" />
+    <None Include="bt3,3.cs" />
+    <None Include="bt3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

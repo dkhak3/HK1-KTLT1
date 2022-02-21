@@ -16,7 +16,7 @@ namespace Ch5_BaiTap
             {
                 for (int j = 2; j <= 9; j++)
                 {
-                    Console.Write($"{ j } * { i } = {i * j}\t");
+                    Console.Write($"{ j } x { i } = {i * j}\t");
                 }
                 Console.WriteLine();
             }

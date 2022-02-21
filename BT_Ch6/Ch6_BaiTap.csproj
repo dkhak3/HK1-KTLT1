@@ -43,7 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NguyenHuuDuyKha_Ch6_BaiTap1.cs" />
+    <None Include="NguyenHuuDuyKha_Ch6_BaiTap1_2_3.cs" />
+    <None Include="NguyenHuuDuyKha_Ch6_BaiTap4.cs" />
+    <None Include="NguyenHuuDuyKha_Ch6_BT5.cs" />
+    <None Include="NguyenHuuDuyKha_Ch6_BT6.cs" />
+    <None Include="NguyenHuuDuyKha_Ch6_BT7.cs" />
+    <None Include="NguyenHuuDuyKha_Ch6_BT8.cs" />
+    <None Include="NguyenHuuDuyKha_Ch6_BT10.cs" />
+    <None Include="NguyenHuuDuyKha_Ch6_BT9.cs" />
+    <None Include="NguyenHuuDuyKha_Ch6_BT11.cs" />
+    <Compile Include="InTamGiacPascal.cs" />
+    <None Include="NguyenHuuDuyKha_Ch6_BT12.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

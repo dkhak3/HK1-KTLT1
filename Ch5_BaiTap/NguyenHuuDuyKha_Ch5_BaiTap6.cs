@@ -15,7 +15,7 @@ namespace Ch5_BaiTap
     {
         static void Main()
         {
-            Console.OutputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             //khai báo biến
             int n = 0;
             double Ft = 0; 
@@ -33,7 +33,7 @@ namespace Ch5_BaiTap
             //Vòng lặp sẽ tính từ phần tử thứ 2 của dãy
             for (int i = 1; i < n; i++)
             {
-                Fn = Ft - Fs;
+                Fn = Ft + Fs;
                 Ft = Fs;// Ft là chỉ số mới của Fs . Dựa theo bảng phân tích trong world
                 Fs = Fn;// Fs là chỉ số mới của Fn
             }
